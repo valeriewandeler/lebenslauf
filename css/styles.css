@@ -44,6 +44,12 @@ ul {
 
 a {
   color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(3, 3, 146);
+  text-decoration: underline;
 }
 
 /*container*/
@@ -70,8 +76,8 @@ td, th {
   background-size: auto;
   background-color: rgba(250, 231, 240, 0.721);
   height: fit-content;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
   text-align: center;
   padding-left: 10%;
   padding-right: 10%;
@@ -82,11 +88,11 @@ td, th {
   background-size: cover;
   background-color: rgba(250, 231, 240, 0.721);
   height: fit-content;
-  margin-left: 10%;
-  margin-right: 10%;
-  text-align: right;
-  padding-left: 20%;
-  padding-right: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 10%;
+  padding-left: 10%;
+  padding-right: 20%;
   padding-top: 2%;
   padding-bottom: 5%;
 }
@@ -102,18 +108,19 @@ td, th {
 .container-flex2 {
   display: flex;
   padding: 0em;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
   margin-top: 1em;
   margin-bottom: 1em;
   height: fit-content;
+ 
   
 }
 
 .aside {
-width: 25%;
+width: 30%;
 padding: 5%;
-margin-right: 10%;
+margin-right: 0%;
 float: right;
 font-style: italic;
 background-color: rgba(245, 251, 123, 0.365);
@@ -128,7 +135,7 @@ background-color: rgba(245, 251, 123, 0.365);
   padding-left: 10%;
   padding-right: 10%;
   padding-bottom: 5%;
-  width: 53%;
+  width: 70%;
 }
 
 
@@ -151,10 +158,6 @@ background-color: rgba(245, 251, 123, 0.365);
   min-width: 6em;
 }
 
-.left {
-  text-align: right;
-}
-
 /*grid*/
 
 .grid-container {
@@ -165,17 +168,15 @@ background-color: rgba(245, 251, 123, 0.365);
 }
 
 .item-1 {
-  margin-top: 2em;
-  background-color: rgba(250, 231, 240, 0.482);
+  margin-top: 5px;
   text-align: center;
   padding-left: 1em;
-  padding-top: 1.5em;
+  padding-top: 0em;
   width: 12em;
 }
 
 .item-2 {
-  background-color: rgb(250, 231, 240, 0.482);
   padding-left: 0.5em;
-  padding-bottom: 2em;
+  padding-bottom: 0em;
   width: 12em;
 }
