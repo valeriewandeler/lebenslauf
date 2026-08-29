@@ -1,0 +1,31 @@
+.btn {
+  display: inline-block;
+  color: white;
+  padding: 10px;
+  margin-top: 30px;
+  margin-left: 3%;
+  margin-right: 3%;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.first-btn {
+  background-color: rgb(100, 125, 141);
+  width: 8em;
+  
+}
+
+.second-btn {
+  background-color: rgba(70, 114, 141, 0.838);
+}
+
+.third-btn {
+  background-color: rgb(88, 147, 168);
+}
+
+.first-btn:hover, .second-btn:hover, .third-btn:hover {
+  opacity: 0.7;
+  transition: opacity 0.5s;
+  text-decoration: none;
+  color: aliceblue;
+}
