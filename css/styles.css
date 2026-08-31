@@ -201,7 +201,7 @@ background-color: rgba(245, 251, 123, 0.365);
   width: 100%;
   position: fixed;
   top: 0;
-  height: fit-content;
+  height: 50px;
   padding-left: 5%;
   padding-right: 5%;
   padding-top: 1%;
@@ -227,6 +227,10 @@ background-color: rgba(245, 251, 123, 0.365);
   }
   .slogan {
     font-size: 0.9rem;
+  }
+
+  .fixed {
+    height: fit-content;
   }
 }
 
