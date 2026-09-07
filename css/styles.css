@@ -33,7 +33,7 @@ h4 {
 p {
    letter-spacing: 0.1cap;
    text-align: justify;
-   padding-bottom: 10%;
+   padding-bottom: 1rem;
 }
 
 ul {
@@ -158,6 +158,11 @@ background-color: rgba(245, 251, 123, 0.365);
 .top {
   vertical-align: top;
   min-width: 6em;
+}
+
+.right {
+  text-align: right;
+  margin-right: 0em;
 }
 
 /*grid*/
